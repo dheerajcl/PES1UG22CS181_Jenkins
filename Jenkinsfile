@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'make -C main'
+                sh 'moan -C main'
             }
         }
         stage('Test') {
